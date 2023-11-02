@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "public class Main {\n    public static void main(String[] args) {       \
+    \ \n        String name = \"galactic hunter\";\n        String learning  = \"\
+    java\";\n        //write your code below\n\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/29692#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 26 Oct 2023 14:41:18 UTC"
+record: -1
+submission_language: java17
