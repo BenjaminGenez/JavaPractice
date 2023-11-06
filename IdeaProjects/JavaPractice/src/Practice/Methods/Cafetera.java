@@ -69,9 +69,9 @@ public class Cafetera {
     public void agregarCafe(int cantidadAgregar) {
         if (cantidadActual + cantidadAgregar <= capacidadMaxima) {
             cantidadActual += cantidadAgregar;
-            System.out.println("Se han agregado " + cantidadAgregar + " c.c. de café a la cafetera.");
+            System.out.println("Se han agregado " + cantidadAgregar + " c.c. de cafe a la cafetera.");
         } else {
-            System.out.println("No se puede agregar más café. La cafetera está llena.");
+            System.out.println("No se puede agregar mas cafe. La cafetera esta llena.");
         }
     }
 

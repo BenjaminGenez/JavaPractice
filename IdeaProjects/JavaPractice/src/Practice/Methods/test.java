@@ -7,21 +7,21 @@ public class test {
         Scanner scanner = new Scanner(System.in);
         String nombre;
         int edad;
-        String dni;
+        String dni = "21345";
         char sexo; String sx;
         float peso;
         float altura;
 
         System.out.println("introduzca el nombre");
         nombre = scanner.next();
-        System.out.println();
+        System.out.println("edad");
         edad = scanner.nextInt();
-        System.out.println();
+        System.out.println("sexo");
         sx = scanner.next();
         sexo = sx.charAt(0);
-        System.out.println();
+        System.out.println("peso");
         peso = scanner.nextFloat();
-        System.out.println();
+        System.out.println("altura");
         altura = scanner.nextFloat();
 
         Constructorex p1 = new Constructorex(nombre, edad, dni, sexo, peso, altura);
@@ -29,14 +29,14 @@ public class test {
 
         System.out.println("introduzca el nombre");
         nombre = scanner.next();
-        System.out.println();
+        System.out.println("edad");
         edad = scanner.nextInt();
-        System.out.println();
+        System.out.println("sexo");
         sx = scanner.next();
         sexo = sx.charAt(0);
-        System.out.println();
+        System.out.println("peso");
         peso = scanner.nextFloat();
-        System.out.println();
+        System.out.println("altura");
         altura = scanner.nextFloat();
 
 
