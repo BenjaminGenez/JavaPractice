@@ -15,7 +15,7 @@ public class PersonasTest {
         System.out.println(directivo);
 
 
-        Oficial oficial = new Oficial("Luis ->" + operario);
+        Oficial oficial = new Oficial("Operario -> Oficial");
         System.out.println(oficial);
 
         Tecnico tecnico = new Tecnico("Pablo -> Operario -> ");
