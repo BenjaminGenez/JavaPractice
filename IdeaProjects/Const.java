@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 class StringCategory {
@@ -72,3 +73,4 @@ public class StringCategorizationWithConstructor {
         }
     }
 }
+*/
