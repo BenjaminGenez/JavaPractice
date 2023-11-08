@@ -11,7 +11,7 @@ public class PersonasTest {
         System.out.println(operario);
 
 
-        Directivo directivo = new Directivo("-> Mario");
+        Directivo directivo = new Directivo(" Mario -> Directivo");
         System.out.println(directivo);
 
 

@@ -8,7 +8,6 @@ public class Directivo extends Empleado {
 
     @Override
     public String toString() {
-        return "Nombre del " +
-                "Directivo= " + nombre ;
+        return "Empleado" + nombre ;
     }
 }
