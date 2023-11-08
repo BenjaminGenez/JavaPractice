@@ -4,19 +4,29 @@ public class PersonasTest {
 
     public static void main(String[] args) {
 
-        Empleado empleado = new Empleado("patata");
+        Empleado empleado = new Empleado("Rafa");
         System.out.println(empleado);
 
-        Operario operario = new Operario("Operador");
+        Operario operario = new Operario("-> Alfonso");
         System.out.println(operario);
 
-        Directivo directivo = new Directivo("Director");
+
+        Directivo directivo = new Directivo("-> Mario");
         System.out.println(directivo);
+
+        Empleado secondEmpleado = new Empleado("Luis ->");
+        System.out.println(secondEmpleado);
 
         Oficial oficial = new Oficial("persona oficial");
         System.out.println(oficial);
 
         Tecnico tecnico = new Tecnico("tecnico");
         System.out.println(tecnico);
+        /*Empleado Rafa
+        Empleado Mario -> Directivo
+        Empleado Alfonso -> Operario
+        Empleado Luis -> Operario -> Oficial
+        Empleado Pablo -> Operario -> Tecnico*/
     }
+
 }
