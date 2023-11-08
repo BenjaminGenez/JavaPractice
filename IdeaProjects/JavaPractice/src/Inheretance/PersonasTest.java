@@ -14,13 +14,11 @@ public class PersonasTest {
         Directivo directivo = new Directivo("-> Mario");
         System.out.println(directivo);
 
-        Empleado secondEmpleado = new Empleado("Luis ->");
-        System.out.println(secondEmpleado);
 
-        Oficial oficial = new Oficial("persona oficial");
+        Oficial oficial = new Oficial("Luis ->" + operario);
         System.out.println(oficial);
 
-        Tecnico tecnico = new Tecnico("tecnico");
+        Tecnico tecnico = new Tecnico("Pablo -> Operario -> ");
         System.out.println(tecnico);
         /*Empleado Rafa
         Empleado Mario -> Directivo
