@@ -1,8 +1,12 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
         Electrodomestico[] electrodomesticos = new Electrodomestico[10];
+        Scanner scanner = new Scanner(System.in);
+
 
         // Initialize all array elements
         electrodomesticos[0] = new Lavadora(200, 30, "blanco", 'A', 40);
