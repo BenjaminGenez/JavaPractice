@@ -44,4 +44,7 @@ package Practice.Hyperskill.Methods.JavaPractice.src.ExercisesTutor;
  if your creatures start behaving oddly, it's probably just a bug in the matrix, nothing a little debugging can't fix!
  😉 Happy coding!*/
 public class Creature {
+    public static void main(String[] args) {
+
+    }
 }
