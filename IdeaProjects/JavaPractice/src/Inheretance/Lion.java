@@ -4,7 +4,7 @@ class Lion extends Animal {
     private String roarStyle;
 
     public Lion(String name, int age, String color, double altura, String roarStyle) {
-        super(name, age, color, altura fix this); // Calling Animal's constructor
+        super(name, age, color, altura); // Calling Animal's constructor
         this.roarStyle = roarStyle;
     }
 
