@@ -6,7 +6,7 @@ public class Kittens {
         System.out.println(myCat.name);
         System.out.println(myCat.age);
 
-        Animals secondCat = new Animals("kity", 4);
+        Animals secondCat = new Animals("kittenhg", 4);
         
     }
 }
