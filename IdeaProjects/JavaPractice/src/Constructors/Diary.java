@@ -8,9 +8,10 @@ public class Diary {
      */
 
     public String getSecret(){
+
         return secret;
     }
     public void setSecret(String newSecret){
-        secret = newSecret; // by setting a method we can later call it an create a new secret that is private?
+        this.secret = newSecret; // by setting a method we can later call it an create a new secret that is private?
     }
 }

@@ -2,7 +2,7 @@ package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
 class Electrodomestico {
     protected double precioBase;
-    protected String color;
+    protected String color1;
     protected char consumoEnergetico;
     protected double peso;
 
@@ -31,8 +31,8 @@ class Electrodomestico {
         return precioBase;
     }
 
-    public String getColor() {
-        return color;
+    public String getColor1() {
+        return color1;
     }
 
     public char getConsumoEnergetico() {
@@ -45,13 +45,13 @@ class Electrodomestico {
 
     private void comprobarColor(String color) {
         String[] coloresDisponibles = {"blanco", "negro", "rojo", "azul", "gris"};
-        this.color = color.toLowerCase();
+        this.color1 = color.toLowerCase();
         for (String colorDisponible : coloresDisponibles) {
-            if (this.color.equals(colorDisponible)) {
+            if (this.color1.equals(colorDisponible)) {
                 return;
             }
         }
-        this.color = COLOR_DEFECTO;
+        this.color1 = COLOR_DEFECTO;
     }
 
     private void comprobarConsumoEnergetico(char letra) {
