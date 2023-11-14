@@ -7,8 +7,14 @@ public class Animals {
 
     private String color;
 
+    private double altura;
 
-
-
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public double getAltura() {
+        return altura;
+    }
+}
 }
