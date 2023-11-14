@@ -1,3 +1,8 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
-class Animal {
+public class Animals {
+    private Stringing name;
+
+
+    }
+}
