@@ -1,16 +1,20 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
 class Zoo {
-    private Animal[] animals;
+    private Animals[] animals;
     private int count;
 
     public Zoo(int size) {
-        animals = new Animal[size];
+        animals = new Animals[size];
         count = 0;
     }
 
 
-    public void addAnimal(Animal animal) {
+    Animals Capibara = new Animals("mini capibara", "4", "4", "12,2");
+
+
+
+    public void addAnimal(Animals animal) {
         if (count < animals.length) {
             animals[count] = animal;
             count++;
@@ -23,8 +27,8 @@ class Zoo {
         String visitor;
 
         for (int i = 0; i < count; i++) {
-            Animal animal = animals[i];
-            System.out.println("Animal " + (i + 1) + ": " + animal.getName() + ", Age: " + animal.getAge());
+            Animals animal = animals[i];
+            System.out.println("Animal " + (i + 1) + ": " + animal.getNameAnimal() + ", Age: " + animal.getAgeAnimal());
         }
     }
 }

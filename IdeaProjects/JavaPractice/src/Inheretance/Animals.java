@@ -1,24 +1,53 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
 public class Animals {
-    private String name;
+    private String nameAnimal;
 
-    private int age;
+    private int ageAnimal;
 
-    private String color;
+    private int paws;
 
     private double altura;
 
-    public void setName(String name) {
-        this.name = name;
+    public Animals(String nameAnimal, int ageAnimal, int paws, double altura) {
+
+        this.nameAnimal = nameAnimal;
+        this.ageAnimal = ageAnimal;
+        this.paws = paws;
+        this.altura = altura;
     }
 
-    public double getAltura() {
-        return altura;
-    }
+        public void setNameAnimal(int name){
+            this.nameAnimal = nameAnimal;
+        }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-}
+
+        public String getNameAnimal() {
+            return nameAnimal;
+        }
+
+        public void setAgeAnimal(int ageAnimal) {
+            this.ageAnimal = ageAnimal;
+        }
+
+        public int getAgeAnimal() {
+            return ageAnimal;
+        }
+
+        public void setPaws() {
+            this.paws = paws;
+        }
+
+        public int getPaws() {
+            return paws;
+        }
+
+        public void setAltura() {
+            this.altura = altura;
+        }
+
+
+
+
+
 }
