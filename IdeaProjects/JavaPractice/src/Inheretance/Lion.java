@@ -8,7 +8,9 @@ class Lion {
         this.roarStyle = roarStyle;
     }
 
+if(){
 
+    }
     public String getRoarStyle() {
         return this.roarStyle;
     }
