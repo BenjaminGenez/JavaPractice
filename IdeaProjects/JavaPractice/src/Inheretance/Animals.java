@@ -15,13 +15,13 @@ public class Animals {
     }
 
     // Overloaded constructor with fewer parameters
-    public Animals(String nameAnimal, int ageAnimal) {
-        this.nameAnimal = nameAnimal;
-        this.ageAnimal = ageAnimal;
-        // Default values for paws and altura
-        this.paws = 4; // Assuming a default value
-        this.altura = 0.5; // Assuming a default value
-    }
+//    public Animals(String nameAnimal, int ageAnimal) {
+//        this.nameAnimal = nameAnimal;
+//        this.ageAnimal = ageAnimal;
+//        // Default values for paws and altura
+//        this.paws = 4; // Assuming a default value
+//        this.altura = 0.5; // Assuming a default value
+//    }
 
     // Setters
     public void setNameAnimal(String nameAnimal){
