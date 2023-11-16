@@ -1,3 +1,4 @@
+/*
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
 class Lion {
@@ -8,9 +9,7 @@ class Lion {
         this.roarStyle = roarStyle;
     }
 
-if(){
 
-    }
     public String getRoarStyle() {
         return this.roarStyle;
     }
@@ -19,3 +18,4 @@ if(){
         this.roarStyle = roarStyle;
     }
 }
+*/

@@ -14,6 +14,9 @@ public class Animals {
         this.altura = altura;
     }
 
+    public Animals(String whiskers, int ageAnimal) {
+    }
+
     // Overloaded constructor with fewer parameters
 //    public Animals(String nameAnimal, int ageAnimal) {
 //        this.nameAnimal = nameAnimal;
