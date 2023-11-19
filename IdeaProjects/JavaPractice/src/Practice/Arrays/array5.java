@@ -21,8 +21,8 @@ public class array5 {
 
 
 
-        System.out.println("Número de elementos positivos: " + positivos);
-        System.out.println("Número de elementos negativos: " + negativos);
+        System.out.println("elementos positivos: " + positivos);
+        System.out.println("elementos negativos: " + negativos);
         System.out.println("Número de ceros: " + ceros);
     }
 }
