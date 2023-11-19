@@ -6,6 +6,8 @@ public class array5 {
         int positivos = 0;
         int negativos = 0;
         int ceros = 0;
+        String test;
+
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > 0) {
@@ -16,6 +18,8 @@ public class array5 {
                 ceros++;
             }
         }
+
+
 
         System.out.println("Número de elementos positivos: " + positivos);
         System.out.println("Número de elementos negativos: " + negativos);

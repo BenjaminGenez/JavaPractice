@@ -9,7 +9,6 @@ public class StrTest1 {
         int longi = part1.length();
         char vowel = part2.charAt(2);
 
-        int
 
 
 
