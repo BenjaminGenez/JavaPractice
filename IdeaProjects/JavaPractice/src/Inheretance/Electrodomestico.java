@@ -7,7 +7,7 @@ class Electrodomestico {
     protected double peso;
 
     // Constantes
-    public static final String COLOR_DEFECTO = "blanco";
+    public static final String COLOR_DEFECTO = "black";
     public static final char CONSUMO_ENERGETICO_DEFECTO = 'F';
     public static final double PRECIO_BASE_DEFECTO = 100;
     public static final double PESO_DEFECTO = 5;
@@ -44,7 +44,7 @@ class Electrodomestico {
     }
 
     private void comprobarColor(String color) {
-        String[] coloresDisponibles = {"blanco", "negro", "rojo", "azul", "gris"};
+        String[] coloresDisponibles = {"black", "negro", "rojo", "azul", "gris"};
         this.color1 = color.toLowerCase();
         for (String colorDisponible : coloresDisponibles) {
             if (this.color1.equals(colorDisponible)) {

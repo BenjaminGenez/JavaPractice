@@ -1,6 +1,8 @@
 
 package Practice.Hyperskill.Methods.JavaPractice.src.Inheretance;
 
+import org.w3c.dom.ls.LSOutput;
+
 class Lion {
     private String roarStyle;
 
@@ -14,8 +16,11 @@ class Lion {
         return this.roarStyle;
     }
 
+
     public void setRoarStyle(String roarStyle) {
         this.roarStyle = roarStyle;
     }
+
+
 }
 */
