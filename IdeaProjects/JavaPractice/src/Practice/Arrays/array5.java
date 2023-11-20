@@ -7,6 +7,7 @@ public class array5 {
         int negativos = 0;
         int ceros = 0;
         String test;
+        int second;
 
 
         for (int i = 0; i < numeros.length; i++) {
