@@ -21,7 +21,7 @@ public class array5 {
         }
 
 
-
+        System.out.println("new");
         System.out.println("elementos positivos: " + positivos);
         System.out.println("elementos negativos: " + negativos);
         System.out.println("Número de ceros: " + ceros);
