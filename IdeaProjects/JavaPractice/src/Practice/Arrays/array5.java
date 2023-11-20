@@ -7,7 +7,7 @@ public class array5 {
         int negativos = 0;
         int ceros = 0;
         String test;
-        int second;
+        int second = 3;
 
 
         for (int i = 0; i < numeros.length; i++) {
@@ -21,6 +21,7 @@ public class array5 {
         }
 
 
+        System.out.println(second);
         System.out.println("new");
         System.out.println("elementos positivos: " + positivos);
         System.out.println("elementos negativos: " + negativos);
