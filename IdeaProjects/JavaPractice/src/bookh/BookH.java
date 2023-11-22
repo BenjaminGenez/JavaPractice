@@ -5,6 +5,7 @@ public class BookH {
 
         int pages = 1;
         String name;
+        int age = 20;
         System.out.println();
         if (pages == 1){
             System.out.println("hey");
