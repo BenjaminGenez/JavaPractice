@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BookH {
     public static void main(String[] args) {
-        Scanner
+        Scanner scanner = new Scanner();
 
         int pages = 1;
         String name;
