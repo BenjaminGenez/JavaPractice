@@ -1,7 +1,10 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.bookh;
 
+import java.util.Scanner;
+
 public class BookH {
     public static void main(String[] args) {
+        Scanner
 
         int pages = 1;
         String name;
