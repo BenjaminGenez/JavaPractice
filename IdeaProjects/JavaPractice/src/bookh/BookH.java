@@ -8,7 +8,7 @@ public class BookH {
         int age = 20;
         System.out.println();
         if (pages == 1){
-            System.out.println("hey");
+            System.out.println("test");
         }
     }
 }
