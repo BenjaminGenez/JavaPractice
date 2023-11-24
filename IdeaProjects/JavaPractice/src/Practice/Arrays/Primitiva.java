@@ -8,6 +8,7 @@ public class Primitiva {
         Random random = new Random();
         HashSet<Integer> numeros = new HashSet<>();
 
+
         while (numeros.size() < 6) {
             int numeroAleatorio = 1 + random.nextInt(49);
             numeros.add(numeroAleatorio);

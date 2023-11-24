@@ -6,7 +6,7 @@ public class array3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Introduce el numero de alumnos: ");
+        //System.out.print("Introduce el numero de alumnos: ");
         int numAlumnos = scanner.nextInt();
 
         int[] notas = new int[numAlumnos];
