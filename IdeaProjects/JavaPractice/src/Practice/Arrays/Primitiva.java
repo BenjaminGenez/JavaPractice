@@ -16,7 +16,7 @@ public class Primitiva {
         int x = 2;
         int i = 0;
         if(i = 0;
-        boolean b = i > x;){
+        var b = i > x;){
             System.out.println("test");
         }else{
             System.out.println("test2");
