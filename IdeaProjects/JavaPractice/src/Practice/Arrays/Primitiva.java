@@ -13,6 +13,7 @@ public class Primitiva {
             int numeroAleatorio = 1 + random.nextInt(49);
             numeros.add(numeroAleatorio);
         }
+        System.out.println("for later");
 
         System.out.println("ve tu suerte:  " + numeros);
     }
