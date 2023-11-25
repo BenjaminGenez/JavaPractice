@@ -13,6 +13,14 @@ public class Primitiva {
             int numeroAleatorio = 1 + random.nextInt(49);
             numeros.add(numeroAleatorio);
         }
+        int x = 2;
+        int i = 0;
+        if(i = 0;
+        boolean b = i > x;){
+            System.out.println("test");
+        }else{
+            System.out.println("test2");
+        }
         System.out.println("for later");
 
         System.out.println("ve tu suerte:  " + numeros);
