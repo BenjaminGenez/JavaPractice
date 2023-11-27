@@ -20,6 +20,7 @@ public class BookH1 {
         if ((x < 3) && (name.equals("Dirk")))
     {
         System.out.println("Gently");
+        System.out.println();
     }
     System.out.print("this line runs no matter what");
         //todo: make it work OK
