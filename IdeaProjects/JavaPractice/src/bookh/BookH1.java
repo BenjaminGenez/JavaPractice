@@ -21,6 +21,7 @@ public class BookH1 {
     {
         System.out.println("Gently");
         System.out.println("ghf");
+        System.out.println();
     }
     System.out.print("this line runs no matter what");
         //todo: make it work OK
