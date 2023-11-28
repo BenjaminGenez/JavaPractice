@@ -1,3 +1,4 @@
+/*
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Arrays;
 
 import java.util.HashSet;
@@ -27,3 +28,4 @@ public class Primitiva {
     }
 }
 
+*/

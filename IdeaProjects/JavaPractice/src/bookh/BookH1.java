@@ -1,3 +1,4 @@
+/*
 package Practice.Hyperskill.Methods.JavaPractice.src.bookh;
 
 public class BookH1 {
@@ -26,3 +27,4 @@ public class BookH1 {
     System.out.print("this line runs no matter what");
         //todo: make it work OK
 }
+*/
