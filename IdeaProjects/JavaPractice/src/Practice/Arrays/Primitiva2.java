@@ -2,6 +2,55 @@ package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Arrays;
 
 import java.util.Random;
 
+import java.util.Random;
+
+public class Primitiva2 {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int[] numeros = new int[6];
+        int count = 0;
+
+        while (count < numeros.length) {
+            int numeroAleatorio = 1 + random.nextInt(49);
+            boolean isUnique = true;
+
+            // Check for uniqueness
+            for (int i = 0; i < count; i++) {
+                if (numeros[i] == numeroAleatorio) {
+                    isUnique = false;
+                    break;
+                }
+            }
+
+            if (isUnique) {
+                numeros[count] = numeroAleatorio;
+                count++;
+            }
+        }
+
+        for (int i = 0; i < numeros.length - 1; i++) {
+            for (int j = 0; j < numeros.length - i - 1; j++) {
+                if (numeros[j] > numeros[j + 1]) {
+                    // Swap
+                    int temp = numeros[j];
+                    numeros[j] = numeros[j + 1];
+                    numeros[j + 1] = temp;
+                }
+            }
+        }
+
+        // Print the sorted numbers
+        System.out.print("Ve tu suerte: ");
+        for (int num : numeros) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+
+
+
+/*
 public class Primitiva2{
     public static void main(String[] args) {
         Random random = new Random();
@@ -47,3 +96,4 @@ public class Primitiva2{
         }
     }
 }
+*/
