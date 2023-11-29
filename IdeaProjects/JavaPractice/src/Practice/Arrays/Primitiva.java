@@ -12,7 +12,6 @@ public class Primitiva {
         Random random = new Random();
         HashSet<Integer> numeros = new HashSet<>();
 
-        // Generating random numbers
         while (numeros.size() < 6) {
             int numeroAleatorio = 1 + random.nextInt(49);
             numeros.add(numeroAleatorio);
@@ -21,14 +20,13 @@ public class Primitiva {
         // Convert HashSet to ArrayList
         List<Integer> sortedNumeros = new ArrayList<>(numeros);
 
-        // Applying Bubble Sort
         bubbleSort(sortedNumeros);
 
-        // Output the sorted numbers
+
         System.out.println("Ve tu suerte: " + sortedNumeros);
     }
 
-    // Bubble Sort method
+
     public static void bubbleSort(List<Integer> list) {
         int n = list.size();
         for (int i = 0; i < n - 1; i++) {
