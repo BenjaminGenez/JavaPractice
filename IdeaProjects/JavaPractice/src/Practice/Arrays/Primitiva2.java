@@ -14,7 +14,6 @@ public class Primitiva2 {
             int numeroAleatorio = 1 + random.nextInt(49);
             boolean isUnique = true;
 
-            // Check for uniqueness
             for (int i = 0; i < count; i++) {
                 if (numeros[i] == numeroAleatorio) {
                     isUnique = false;
@@ -31,7 +30,6 @@ public class Primitiva2 {
         for (int i = 0; i < numeros.length - 1; i++) {
             for (int j = 0; j < numeros.length - i - 1; j++) {
                 if (numeros[j] > numeros[j + 1]) {
-                    // Swap
                     int temp = numeros[j];
                     numeros[j] = numeros[j + 1];
                     numeros[j + 1] = temp;
@@ -39,11 +37,15 @@ public class Primitiva2 {
             }
         }
 
-        // Print the sorted numbers
-        System.out.print("Ve tu suerte: ");
+        /*System.out.print("Ve tu suerte: ");
         for (int num : numeros) {
             System.out.print(num + " ");
+        }*/
+        System.out.print("Ve tu suerte: ");
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print(numeros[i] + " ");
         }
+
     }
 }
 
