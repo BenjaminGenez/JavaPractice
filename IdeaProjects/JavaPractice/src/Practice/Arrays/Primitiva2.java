@@ -1,7 +1,5 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Arrays;
 
-
-
 import java.util.Random;
 
 public class Primitiva2{
