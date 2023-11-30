@@ -1,10 +1,10 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Polimorphism;
 
-class CuentaAhorro3 extends Cuenta {
+class Cuenta3Ahorro3 extends Cuenta3 {
     private double interesVariable;
     private double saldoMinimo;
 
-    public CuentaAhorro3(Persona cliente, long numerocuenta, double interesVariable, double saldoMinimo) {
+    public Cuenta3Ahorro3(Persona3 cliente, long numerocuenta, double interesVariable, double saldoMinimo) {
         super(cliente, numerocuenta);
         this.interesVariable = interesVariable;
         this.saldoMinimo = saldoMinimo;

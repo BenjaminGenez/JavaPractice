@@ -1,6 +1,6 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Pol;
 
-public class SistemaSolar {
+public class PruebaSistemaSolar {
     public static void main(String[] args) {
         Estrella sol = new Estrella("Sol", 1.989e30, 1.391e6, 587.28, "G2V");
 

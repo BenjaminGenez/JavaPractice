@@ -1,9 +1,9 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Polimorphism;
 
-class CuentaCorriente3 extends Cuenta {
+class Cuenta3Corriente3 extends Cuenta3 {
     private static final double interesFijo = 0.015; // Interés fijo del 1.5%
 
-    public CuentaCorriente3(Persona cliente, long numerocuenta) {
+    public Cuenta3Corriente3(Persona3 cliente, long numerocuenta) {
         super(cliente, numerocuenta);
     }
 

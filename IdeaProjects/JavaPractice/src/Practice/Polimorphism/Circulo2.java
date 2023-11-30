@@ -1,9 +1,9 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Polimorphism;
 
-class Circulo extends Figura {
+class Circulo2 extends Figura2 {
     private double radio;
 
-    public Circulo(double radio) {
+    public Circulo2(double radio) {
         this.radio = radio;
     }
 

@@ -1,11 +1,11 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Polimorphism;
 
 
-class Triangulo extends Figura {
+class Triangulo2 extends Figura2 {
     double base;
     double altura;
 
-    Triangulo(double base, double altura) {
+    Triangulo2(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }

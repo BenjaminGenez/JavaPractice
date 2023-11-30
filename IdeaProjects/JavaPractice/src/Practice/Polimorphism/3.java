@@ -1,11 +1,11 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Practice.Polimorphism;
 
-class Persona {
+class Persona3 {
     private String nombre;
     private String apellidos;
     private String NIF;
 
-    public Persona(String nombre, String apellidos, String NIF) {
+    public Persona3(String nombre, String apellidos, String NIF) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.NIF = NIF;
@@ -21,12 +21,12 @@ class Persona {
     public String getNIF() { return NIF; }
     public void setNIF(String NIF) { this.NIF = NIF; }
 }
-abstract class Cuenta {
+abstract class Cuenta3 {
     protected long numerocuenta;
     protected double saldo;
-    protected Persona cliente;
+    protected Persona3 cliente;
 
-    public Cuenta(Persona cliente, long numerocuenta) {
+    public Cuenta3(Persona3 cliente, long numerocuenta) {
         this.cliente = cliente;
         this.numerocuenta = numerocuenta;
         this.saldo = 0.0;
@@ -39,8 +39,8 @@ abstract class Cuenta {
     public double getSaldo() { return saldo; }
     public void setSaldo(double saldo) { this.saldo = saldo; }
 
-    public Persona getCliente() { return cliente; }
-    public void setCliente(Persona cliente) { this.cliente = cliente; }
+    public Persona3 getCliente() { return cliente; }
+    public void setCliente(Persona3 cliente) { this.cliente = cliente; }
 
     // Método para ingresar dinero
     public void ingresar(double cantidad) {
