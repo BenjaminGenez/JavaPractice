@@ -3,7 +3,6 @@ package Practice.Hyperskill.Methods.JavaPractice.src.Pol;
 import java.util.ArrayList;
 import java.util.List;
 
-// Clase base para cualquier cuerpo celeste
 abstract class CuerpoCeleste {
     protected String nombre;
     protected double masa;
@@ -25,7 +24,7 @@ abstract class CuerpoCeleste {
     }
 }
 
-// Clase para representar estrellas (como el Sol)
+
 class Estrella extends CuerpoCeleste {
     private String tipoEspectral;
 
@@ -41,7 +40,7 @@ class Estrella extends CuerpoCeleste {
     }
 }
 
-// Clase para representar planetas
+
 class Planeta extends CuerpoCeleste {
     private double periodoTraslacion;
     private double distanciaMediaAlSol;

@@ -8,8 +8,6 @@ public class PruebaSistemaSolar {
         Satelite luna = new Satelite("Luna", 7.34767309e22, 3474.8, 655.728, tierra, 3.844e5, 0.0549);
 
         tierra.añadirSatelite(luna);
-
-        // Imprimir información
         sol.imprimirInformacion();
         tierra.imprimirInformacion();
         luna.imprimirInformacion();
