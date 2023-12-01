@@ -4,16 +4,16 @@ public class PruebaPuertaCoche {
     public static void main(String[] args) {
         PuertaCoche puerta = new PuertaCoche("Puerta principal", 50.0, 300.0);
         puerta.mostrarAtributos();
-        puerta.abrir(); // Intenta abrir la puerta
-        puerta.bloquea(); // Bloquea la puerta
-        puerta.abrir(); // Intenta abrir la puerta de nuevo
-        puerta.desbloquea(); // Desbloquea la puerta
-        puerta.abrir(); // Ahora sí debería abrir
+        puerta.abrir();
+        puerta.bloquea();
+        puerta.abrir();
+        puerta.desbloquea();
+        puerta.abrir();
 
-        // Prueba de los métodos de la alarma
-        System.out.println("¿Alarma activada?: " + (puerta.alarmaActivada() ? "Sí" : "No"));
+
+        System.out.println("alarma activada?: " + (puerta.alarmaActivada() ? "si" : "No"));
         puerta.activarAlarma();
-        System.out.println("¿Alarma activada?: " + (puerta.alarmaActivada() ? "Sí" : "No"));
+        System.out.println("alarma activada?: " + (puerta.alarmaActivada() ? "i" : "No"));
         puerta.desactivarAlarma();
     }
 }

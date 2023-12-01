@@ -72,7 +72,7 @@ class Planeta extends CuerpoCeleste {
     }
 }
 
-// Clase para representar satélites (como la Luna)
+
 class Satelite extends CuerpoCeleste {
     private Planeta planetaOrbita;
     private double distanciaMediaAlPlaneta;

@@ -1,25 +1,26 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.Pol;
 
-// Interface Puerta
+
 interface Puerta {
     void abrir();
     void cerrar();
 }
 
-// Interface PuertaBloqueable
+/
 interface PuertaBloqueable extends Puerta {
     void bloquea();
     void desbloquea();
 }
 
-// Interface Alarma
+
 interface Alarma6 {
     boolean alarmaActivada();
     void activarAlarma();
     void desactivarAlarma();
+
 }
 
-// Clase ComponenteDeCoche
+
 class ComponenteDeCoche {
     protected String descripcion;
     protected double peso;
@@ -38,7 +39,7 @@ class ComponenteDeCoche {
     }
 }
 
-// Clase PuertaCoche
+
 class PuertaCoche extends ComponenteDeCoche implements Alarma6, PuertaBloqueable {
     private boolean estaBloqueada;
 
@@ -81,15 +82,17 @@ class PuertaCoche extends ComponenteDeCoche implements Alarma6, PuertaBloqueable
     }
 
     @Override
-    public void activarAlarma() {
+    public void activarAlarma()
+    {
         System.out.println("La alarma se ha activado.");
     }
 
     @Override
-    public void desactivarAlarma() {
+    public void desactivarAlarma()
+    {
         System.out.println("La alarma se ha desactivado.");
     }
 }
 
-//
+
 
