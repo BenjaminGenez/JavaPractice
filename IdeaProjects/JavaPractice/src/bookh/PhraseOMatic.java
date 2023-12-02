@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class PhraseOMatic {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner();
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
         String[] wordListOne = {"agnostic", "opinionated", "voice activated",
                 "haptically driven", "extensible",
                 "reactive", "agent based", "functional", "AI enabled", "strongly typed"};
