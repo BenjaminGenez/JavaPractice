@@ -7,8 +7,12 @@ public class BottleSong {
 
         while (bottleNum > 0){
             if (bottleNum == 1){
+                System.out.println(bottleNum + " green bottle sitting on the wall");
+                bottleNum -= 1;
             }
-            word = "bottle";
+                if (bottleNum == 0){
+                    System.out.println("stop");
+                }
             System.out.println(bottleNum + " green " + word + " sitting on the wall");
             System.out.println(bottleNum + " green " + word + " sitting on the wall");
             System.out.println("And if one green " + word + " were to fall");

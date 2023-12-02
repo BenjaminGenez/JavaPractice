@@ -6,7 +6,7 @@ interface Puerta {
     void cerrar();
 }
 
-/
+
 interface PuertaBloqueable extends Puerta {
     void bloquea();
     void desbloquea();
