@@ -1,7 +1,10 @@
 package Practice.Hyperskill.Methods.JavaPractice.src.bookh;
 
+import java.util.Scanner;
+
 public class PhraseOMatic {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner();
         String[] wordListOne = {"agnostic", "opinionated", "voice activated",
                 "haptically driven", "extensible",
                 "reactive", "agent based", "functional", "AI enabled", "strongly typed"};
