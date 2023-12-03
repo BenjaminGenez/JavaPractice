@@ -28,6 +28,7 @@ public class PhraseOMatic {
         int rand3 = randomGenerator.nextInt(threeLenght);
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
         System.out.println("the result is" + phrase);
+        System.out.println(phrase);
 
     }
 }
