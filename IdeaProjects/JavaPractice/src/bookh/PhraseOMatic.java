@@ -6,6 +6,7 @@ public class PhraseOMatic {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
+        System.out.println();
         //System.out.println(number);
         String[] wordListOne = {"agnostic", "opinionated", "voice activated",
                 "haptically driven", "extensible",
