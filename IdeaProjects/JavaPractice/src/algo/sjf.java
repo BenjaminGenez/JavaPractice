@@ -66,6 +66,7 @@ public class sjf {
                 + avg_wt);
         System.out.println("Average Turnaround Time= "
                 + avg_tat);
+        System.out.println("");
     }
 }
 
