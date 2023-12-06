@@ -7,7 +7,7 @@ public class Met {
         System.out.println("Arguments: " + a);
     }
 
-    //ahhh
+    //ahhh// Method with one parameter
 
     // Method with two parameters
     public static void display(int a, int b) {
