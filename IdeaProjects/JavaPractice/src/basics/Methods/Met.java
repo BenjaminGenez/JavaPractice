@@ -7,6 +7,8 @@ public class Met {
         System.out.println("Arguments: " + a);
     }
 
+    //ahhh
+
     // Method with two parameters
     public static void display(int a, int b) {
         System.out.println("Arguments: " + a + " and " + b);
