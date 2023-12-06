@@ -1,0 +1,31 @@
+- src
+    - main
+        - java
+            - com
+                - yourcompany
+                    - basics
+                        - datatypes
+                            - (Basic data types related Java files go here)
+                        - controlstructures
+                            - (Control structures related Java files go here)
+                        - io
+                            - (Input/Output related Java files go here)
+                    - oop
+                        - inheritance
+                            - (Inheritance related Java files go here)
+                        - encapsulation
+                            - (Encapsulation related Java files go here)
+                        - polymorphism
+                            - (Polymorphism related Java files go here)
+                    - algorithms
+                        - sorting
+                            - (Sorting algorithms related Java files go here)
+                        - searching
+                            - (Searching algorithms related Java files go here)
+                    - advanced
+                        - multithreading
+                            - (Multithreading related Java files go here)
+                        - networking
+                            - (Networking related Java files go here)
+                        - database
+                            - (Database related Java files go here)
