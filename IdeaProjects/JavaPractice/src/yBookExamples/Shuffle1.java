@@ -2,36 +2,25 @@ package yBookExamples;
 
 public class Shuffle1 {
     public static void main(String[] args) {
-        int x = 2;
-        int y = 0;
-        System.out.println(y);
+        int x = 3;
 
-        if (x > 0){
-            System.out.print("a");
+        while(x > 0){
 
-        }
-
-        while (x > 9){
-
-
-           // x -= 1;
-            System.out.println("-");
-            if (x == 2){
-                System.out.print("b c");
-                x -= 1;
+            if(x > 2){
+                System.out.print("a");
+                System.out.print("-");
             }
 
+            if (x == 2){
+                System.out.print("b c");
+                System.out.print("-");
+            }
+            if (x == 1){
+                System.out.print("d");
+                x = x - 1;
+            }
+            x = x - 1;
 
         }
-
-
-
-
-        if (x == 1){
-
-            System.out.print("d");
-
-        }
-
     }
 }
