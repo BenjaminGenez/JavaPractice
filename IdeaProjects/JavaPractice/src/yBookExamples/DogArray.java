@@ -17,6 +17,11 @@ public class DogArray {
         myDog[1].size = 20;
         myDog[1].bark();
 
+        myDog[2] = new Dog();
+        myDog[2].name = "rexi";
+        myDog[2].size = 21;
+        myDog[2].bark();
+
         System.out.println();
 
 
