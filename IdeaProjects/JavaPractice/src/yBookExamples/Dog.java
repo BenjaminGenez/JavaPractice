@@ -14,4 +14,7 @@ public class Dog {
             numOfBarks = numOfBarks - 1;
         }
     }
+    public void bark(String barkWord){
+        System.out.println(barkWord);
+    }
 }
