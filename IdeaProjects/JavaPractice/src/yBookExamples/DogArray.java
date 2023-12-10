@@ -12,6 +12,13 @@ public class DogArray {
 
         System.out.println();
 
+        myDog[1] = new Dog();
+        myDog[1].name = "rex";
+        myDog[1].size = 20;
+        myDog[1].bark();
+
+        System.out.println();
+
 
 
 

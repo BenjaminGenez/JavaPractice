@@ -18,6 +18,3 @@ public class Dog {
         System.out.println(barkWord);
     }
 }
-public class DogArray {
-    public static void main(String[] args) {
-        Dog[] myDog = new Dog[3];
