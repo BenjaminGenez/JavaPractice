@@ -7,5 +7,7 @@ public class Serie {
     String genero;
     String Creador;
 
+    public Serie() {
+    }
 
 }
