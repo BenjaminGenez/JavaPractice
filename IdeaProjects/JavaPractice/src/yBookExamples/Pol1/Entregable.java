@@ -1,4 +1,8 @@
 package yBookExamples.Pol1;
 
-interface Entregable {
+public interface Entregable {
+    void entregar();
+    void devolver();
+    boolean isEntregado();
+    int compareTo(Object a);
 }
