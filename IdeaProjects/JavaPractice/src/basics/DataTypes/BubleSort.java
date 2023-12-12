@@ -13,6 +13,9 @@ package basics.DataTypes;
                 }
             }
         }
-        while ()
+        while (n > 0) {
+            System.out.print(array[array.length - n] + " ");
+            n--;
+        }
     }
 }
