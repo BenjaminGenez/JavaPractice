@@ -15,5 +15,7 @@ public class ChristmasTree {
             }
             System.out.println();
         }
+        System.out.println("Merry Christmas!");
     }
+
 }
