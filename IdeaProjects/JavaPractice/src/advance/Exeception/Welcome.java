@@ -9,4 +9,7 @@ public class Welcome {
     while (true) {
         System.out.println("Welcome to Java");
     }
+    if (flag) {
+        System.out.println("Welcome to Java");
+    }
 }
