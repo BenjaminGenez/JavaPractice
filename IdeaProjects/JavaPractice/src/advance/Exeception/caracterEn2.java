@@ -7,7 +7,7 @@ public class caracterEn2 {
             String cadena = "Hola, patata";
             int posicion = 7;
             char resultado = caracterEn(cadena, posicion);
-            System.out.println("l caracter en la posición " + posicion + " es: " + resultado);
+            System.out.println("el caracter en la posición " + posicion + " es: " + resultado);
         } catch (Exception e) {
             System.out.println("excepcion: " + e.getMessage());
         }
