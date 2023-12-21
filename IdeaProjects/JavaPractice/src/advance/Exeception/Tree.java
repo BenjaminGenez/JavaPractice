@@ -18,5 +18,10 @@ public class Tree {
         else {
             flag = false;
         }
+
+        while (flag) {
+            System.out.println("The size of the tree is " + size);
+            flag = false;
+        }
     }
 }
