@@ -49,6 +49,15 @@ public class integrals {
         String str = "Hello";
         System.out.println("Welcome to Java");
 
+        if (str.equals("Hello")) {
+            System.out.println("Hello");
+        }
+        else if (str.equals("Hi")) {
+            System.out.println("Hi");
+        }
+        else {
+            flag = false;
+        }
 
     }
 }
