@@ -59,5 +59,10 @@ public class integrals {
             flag = false;
         }
 
+        while (flag) {
+            System.out.println("Welcome to Java");
+            flag = false;
+        }
+
     }
 }
