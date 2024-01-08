@@ -64,5 +64,7 @@ public class integrals {
             flag = false;
         }
 
+        int x = 10;
+
     }
 }
