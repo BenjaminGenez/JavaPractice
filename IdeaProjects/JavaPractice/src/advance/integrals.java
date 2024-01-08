@@ -79,5 +79,10 @@ public class integrals {
         else {
             flag = false;
         }
+
+        while (flag) {
+            System.out.println("x is " + x);
+            flag = false;
+        }
     }
 }
