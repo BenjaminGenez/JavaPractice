@@ -67,5 +67,17 @@ public class integrals {
         int x = 10;
         flag = true;
 
+        if (x == 10) {
+            System.out.println("x is " + x);
+        }
+        else if (x == 20) {
+            System.out.println("x is " + x);
+        }
+        else if (x == 30) {
+            System.out.println("x is " + x);
+        }
+        else {
+            flag = false;
+        }
     }
 }
